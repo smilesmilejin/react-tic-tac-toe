@@ -13,7 +13,8 @@ describe('App', () => {
     expect(buttons[buttonIndex].innerHTML).toEqual(expectedResult);
   };
 
-  describe.skip('Wave 2: clicking on squares and rendering App', () => {
+  describe('Wave 2: clicking on squares and rendering App', () => {
+  // describe.skip('Wave 2: clicking on squares and rendering App', () => {
     test('App renders with a board of 9 empty buttons', () => {
       // Arrange-Act - Render the app
       const { container } = render(<App />);
